@@ -192,6 +192,7 @@ header .layer {
 
 header .content {
     line-height: 1.2;
+    width: 100%;
 }
 
 header .content h3 {
