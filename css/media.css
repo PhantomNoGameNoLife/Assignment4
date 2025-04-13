@@ -1,0 +1,244 @@
+/* ***************** md ***************** */
+@media screen and (min-width: 768px) {
+    .md-none {
+        display: none;
+    }
+
+    .md-block {
+        display: block !important;
+        background-color: transparent !important;
+    }
+
+    .md-95 {
+        width: 95%;
+        max-width: 768px;
+    }
+
+    .md-80 {
+        width: 80%;
+    }
+
+    .md-75 {
+        width: 75%;
+    }
+
+    .md-50 {
+        width: 50%;
+    }
+
+    .md-48 {
+        width: 48%;
+    }
+
+    .md-33 {
+        width: calc(100%/3);
+    }
+
+    .md-25 {
+        width: 25%;
+    }
+
+    .md-20 {
+        width: 20%;
+    }
+
+    .md-14 {
+        width: calc(100%/7);
+    }
+
+    .py-30 {
+        padding-right: 30px;
+    }
+
+    .pyr-15 {
+        padding-right: 15px;
+    }
+
+    .py-15 {
+        padding: 0 15px;
+    }
+
+    .py-70 {
+        padding: 70px 0;
+    }
+
+    .py-70-24 {
+        padding: 70px 0 24px;
+    }
+
+    .py-70-50 {
+        padding: 70px 0 50px;
+    }
+
+    .py-50 {
+        padding: 50px 0;
+    }
+
+    nav .menu li a {
+        padding: 23px 0;
+    }
+
+    header .content h3 {
+        font-size: 22px;
+    }
+
+    header .content h1 {
+        font-size: 66px;
+    }
+
+    header .content h4 {
+        font-size: 25px;
+        font-weight: 100;
+    }
+
+    .mgb-15 {
+        margin-bottom: 15px !important;
+    }
+
+    .about-item .inner p {
+        padding-bottom: 15px;
+    }
+
+    .about-item .inner ul li {
+        font-size: 14px;
+    }
+
+    .about-item .inner .btns a {
+        padding: 12px 24px;
+    }
+
+    .section-head {
+        font-size: 38px;
+    }
+
+    .serivces-item {
+        padding: 40px 15px;
+    }
+
+    .projects-item {
+        margin: 0;
+    }
+
+    .testimonial .card {
+        padding: 40px;
+    }
+
+    .testimonial-item:first-child .inner {
+        margin: 12px 0;
+    }
+
+    .testimonial .card::before {
+        border-width: 180px;
+    }
+
+    .blog-item .inner .content a {
+        font-size: 16px;
+    }
+}
+
+/* ***************** lg ***************** */
+@media screen and (min-width: 1024px) {
+    .lg-90 {
+        width: 90%;
+        max-width: 1024px;
+    }
+
+    .lg-66 {
+        width: calc(100% * (2 / 3) - 100px);
+    }
+
+    .lg-40 {
+        width: 40%;
+    }
+
+    .lg-60 {
+        width: 60%;
+    }
+
+    .lg-33 {
+        width: calc(100% / 3);
+    }
+
+    .lg-25 {
+        width: 25%;
+    }
+
+    .mgl-100 {
+        margin-left: 100px;
+    }
+
+    .pyl-28 {
+        padding-left: 28px;
+    }
+
+    .py-80 {
+        padding: 80px 0;
+    }
+
+    .py-80-34 {
+        padding: 80px 0 34px;
+    }
+
+    .py-80-50 {
+        padding: 80px 0 50px;
+    }
+
+    .about-item .inner .content {
+        transform: translate(24px, 24px);
+    }
+
+    .about-item .inner p {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    .testimonial .card {
+        width: 650px;
+        margin: 0 auto;
+    }
+
+    .contact form {
+        width: 65%;
+        margin: 0 auto;
+    }
+}
+
+/* ***************** xl ***************** */
+@media screen and (min-width: 1280px) {
+    .xl-85 {
+        width: 85%;
+        max-width: 1280px;
+    }
+
+    .xl-50 {
+        width: 50%;
+    }
+
+    .py-100 {
+        padding: 100px 0;
+    }
+
+    .py-100-54 {
+        padding: 100px 0 54px;
+    }
+
+    .py-100-70 {
+        padding: 100px 0 70px;
+    }
+
+    .py-100-125 {
+        padding: 100px 0 125px;
+    }
+
+    .pyl-70 {
+        padding-left: 70px;
+    }
+}
+
+/* ***************** xxl ***************** */
+@media screen and (min-width: 1536px) {
+    .xxl-75 {
+        width: 75%;
+        max-width: 1536px;
+    }
+}

@@ -10,234 +10,237 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./font-awesome/css/all.min.css">
     <link rel="stylesheet" href="./font-awesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./font-awesome/css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
 </head>
 
 <body>
-    <!-- start header -->
-    <header class="header">
-        <div class="container">
-            <div class="logo float-element"><a href="./index.html">Fokir</a></div>
-            <div class="nav float-element">
-                <nav>
-                    <ul>
-                        <li><a href="#home" class="active">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#testimonial">Testimonial</a></li>
-                        <li><a href="#blog">Blog</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <div class="clr"></div>
-                    </ul>
-                </nav>
+    <!-- *********************** start navbar *********************** -->
+    <nav>
+        <div class="container md-95 lg-90 xl-85 xxl-75">
+            <div class="logo xs-100 md-25 lg-40 xl-50"><a href="">Fokir</a></div>
+            <div class="menu-logo md-none"><i class="fa-solid fa-bars"></i></div>
+            <div class="menu md-block xs-100 md-75 lg-60 xl-50">
+                <ul>
+                    <li class="xs-100 md-14"><a class="active" href="#home">Home</a></li>
+                    <li class="xs-100 md-14"><a href="#about">About</a></li>
+                    <li class="xs-100 md-14"><a href="#services">Services</a></li>
+                    <li class="xs-100 md-14"><a href="#portfolio">Portfolio</a></li>
+                    <li class="xs-100 md-14"><a href="#testimonial">Testimonial</a></li>
+                    <li class="xs-100 md-14"><a href="#blog">Blog</a></li>
+                    <li class="xs-100 md-14"><a href="#contact">Contact</a></li>
+                    <div class="clr"></div>
+                </ul>
             </div>
             <div class="clr"></div>
         </div>
-    </header>
-    <!-- end header -->
+    </nav>
+    <!-- *********************** end navbar *********************** -->
 
-    <!-- start section 1 -->
-    <section id="home" class="home">
-        <div class="container">
-            <h3>Hello i'm</h3>
-            <h1>ALEX SMITH</h1>
-            <h4>Professional Web <span class="typed"></span></h4>
+    <!-- *********************** start header *********************** -->
+    <header class="home">
+        <div class="layer">
+            <div class="content content-center">
+                <h3>Hello i'm</h3>
+                <h1>ALEX SMITH</h1>
+                <h4>
+                    Professional Web
+                    <span class="typed"></span>
+                </h4>
+            </div>
         </div>
-        <div class="layer"></div>
-    </section>
-    <!-- end section 1 -->
+    </header>
+    <!-- *********************** end header *********************** -->
 
-    <!-- start section 2 -->
-    <section id="about" class="sec about">
-        <div class="container">
-            <div class="left about-div">
-                <div class="imgbox">
-                    <div class="divimg">
-                        <img src="./image/section2.jpg" alt="about">
+    <!-- *********************** start about *********************** -->
+    <section id="about" class="about py-60 py-70 py-80 py-100-125">
+        <div class="container md-95 lg-90 xl-85 xxl-75">
+            <div class="about-item xs-100 md-50 lg-33 py-30 mgl-100">
+                <div class="inner">
+                    <div class="content">
+                        <img src="./img/about.jpg" alt="my img">
                         <div class="layer">
-                            <div class="social-icon">
-                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <div class="content-center">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                                 <a href="#"><i class="fa-brands fa-twitter"></i></a>
                                 <a href="#"><i class="fa-brands fa-google"></i></a>
                                 <a href="#"><i class="fa-brands fa-github"></i></a>
+                                <div class="clr"></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="right about-div">
-                <h2>Hello,</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.</p>
-                <div class="profile-about">
+            <div class="about-item xs-100 md-50 lg-66 pyr-15">
+                <div class="inner pyl-28 pyl-70">
+                    <h2 class="mgb-15">HELLO,</h2>
+                    <p class="mgb-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <ul>
-                        <li><span>Name:</span> Rdam smith</li>
-                        <li><span>Job Title:</span> UI/UX Designer</li>
-                        <li><span>Age:</span> 26 Year</li>
-                        <li><span>Location:</span> United States, US</li>
-                        <li><span>Freelance:</span> Available</li>
-                        <li><span>E-mail:</span> example@gmail.com</li>
-                        <div class="clr"></div>
+                        <li class="xs-100 md-50 mgb-15">Name: <span>Rdam smith</span></li>
+                        <li class="xs-100 md-50 mgb-15">Job Title: <span> UI/UX Designer</span></li>
+                        <li class="xs-100 md-50 mgb-15">Age: <span>26 Year</span></li>
+                        <li class="xs-100 md-50 mgb-15">Location: <span>United States, US</span></li>
+                        <li class="xs-100 md-50 mgb-15">Freelance: <span>Available</span></li>
+                        <li class="xs-100 md-50 mgb-15">E-mail: <a href="#">example@gmail.com</a></li>
                     </ul>
                     <div class="btns">
-                        <button>Download CV <i class="fa fa-download"></i></button>
-                        <button>Hire Me <i class="fa fa-paper-plane"></i></button>
+                        <a href="#">Download CV <i class="fa-solid fa-download"></i></a>
+                        <a href="#content">Hire Me <i class="fa-solid fa-paper-plane"></i></a>
                     </div>
                 </div>
             </div>
             <div class="clr"></div>
         </div>
     </section>
-    <!-- end section 2 -->
+    <!-- *********************** end about *********************** -->
 
-    <!-- start section 3 -->
-    <section id="services" class="services">
-        <div class="container">
-            <div class="upper">
-                <h2>Our Services</h2>
-            </div>
-            <div class="our-service">
-                <div class="single-service">
-                    <div><i class="fa-solid fa-pen-ruler"></i></div>
+    <!-- *********************** start services *********************** -->
+    <section id="services" class="services sec-py-center py-70-24 py-80-34 py-100-54">
+        <div class="container md-95 lg-90 xl-85 xxl-75">
+            <h2 class="section-head shape-line">Our Services</h2>
+            <div class="serivces-item xs-100 md-50 lg-25">
+                <div class="inner">
+                    <i class="fa-solid fa-pen-ruler"></i>
                     <h3>UI/UX DESIGN</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis
                         necstatibus.</p>
                 </div>
-                <div class="single-service">
-                    <div><i class="fa-solid fa-laptop-code"></i></div>
+            </div>
+            <div class="serivces-item xs-100 md-50 lg-25">
+                <div class="inner">
+                    <i class="fa-solid fa-laptop-code"></i>
                     <h3>APP DEVELOPMENT</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis
                         necstatibus.</p>
                 </div>
-                <div class="single-service">
-                    <div><i class="fa-solid fa-object-group"></i></div>
+            </div>
+            <div class="serivces-item xs-100 md-50 lg-25">
+                <div class="inner">
+                    <i class="fa-solid fa-object-group"></i>
                     <h3>PRODUCT DESIGN</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis
                         necstatibus.</p>
                 </div>
-                <div class="single-service">
-                    <div><i class="fa-solid fa-gears"></i></div>
+            </div>
+            <div class="serivces-item xs-100 md-50 lg-25">
+                <div class="inner">
+                    <i class="fa-solid fa-gears"></i>
                     <h3>UI/UX DESIGN</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis
                         necstatibus.</p>
                 </div>
-                <div class="clr"></div>
-            </div>
-        </div>
-    </section>
-    <!-- end section 3 -->
-
-    <!-- start section 4 -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="upper">
-                <h2>Our Portfolio</h2>
-            </div>
-            <div class="btns">
-                <button class="active">All</button>
-                <button>Graphic</button>
-                <button>Design</button>
-                <button> Branding</button>
-            </div>
-            <div class="our-portfolio">
-                <div class="single-portfolio">
-                    <div class="divimg">
-                        <img src="./image/1.jpg" alt="alarm">
-                        <div class="layer">
-                            <i class="fa-solid fa-file-image"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="single-portfolio">
-                    <div class="divimg"><img src="./image/2.jpg" alt="watch">
-                        <div class="layer">
-                            <i class="fa-solid fa-link"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="single-portfolio">
-                    <div class="divimg"><img src="./image/3.jpg" alt="paper">
-                        <div class="layer"><i class="fa-solid fa-file-video"></i></div>
-                    </div>
-                </div>
-                <div class="single-portfolio">
-                    <div class="divimg"><img src="./image/4.jpg" alt="shoes">
-                        <div class="layer">
-                            <i class="fa-solid fa-file-image"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="single-portfolio">
-                    <div class="divimg"><img src="./image/5.jpg" alt="cards">
-                        <div class="layer"><i class="fa-solid fa-link"></i></div>
-                    </div>
-                </div>
-                <div class="single-portfolio">
-                    <div class="divimg"><img src="./image/6.jpg" alt="arphones">
-                        <div class="layer">
-                            <i class="fa-solid fa-file-image"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="clr"></div>
-            </div>
-        </div>
-    </section>
-    <!-- end section 4 -->
-
-    <!-- start section 5 -->
-    <section class="work">
-        <div class="container">
-            <div class="work-area">
-                <div><i class="fa-solid fa-users"></i></div>
-                <h3>200</h3>
-                <h5>Team members</h5>
-            </div>
-            <div class="work-area">
-                <div><i class="fa-solid fa-file"></i></div>
-                <h3>345</h3>
-                <h5>Complete Projects</h5>
-            </div>
-            <div class="work-area">
-                <div><i class="fa-solid fa-cloud-arrow-down"></i></div>
-                <h3>1800</h3>
-                <h5>Files Downloaded</h5>
-            </div>
-            <div class="work-area">
-                <div><i class="fa-solid fa-mug-saucer"></i></div>
-                <h3>1200</h3>
-                <h5>Lines Of Code</h5>
             </div>
             <div class="clr"></div>
         </div>
     </section>
-    <!-- end section 5 -->
-    <!-- start section 6 -->
-    <section id="testimonial" class="testimonial">
-        <div class="container">
-            <div class="upper">
-                <h2>Client's Feedback</h2>
+    <!-- *********************** end services *********************** -->
+
+    <!-- *********************** start portfolio *********************** -->
+    <section id="portfolio" class="portfolio sec-py-center py-70-50 py-80-50 py-100-70">
+        <div class="container md-95 lg-90 xl-85 xxl-75">
+            <h2 class="section-head shape-line">Our Portfolio</h2>
+            <div>
+                <ul>
+                    <li class="active">ALL</li>
+                    <li>GRAPHIC</li>
+                    <li>WEB DESIGN</li>
+                    <li>BRANDING</li>
+                    <div class="clr"></div>
+                </ul>
             </div>
-            <div class="cards">
-                <div class="card-item">
-                    <div class="left div-card">
-                        <img src="./image/2 (1).jpg" alt="man">
-                    </div>
-                    <div class="right div-card">
+            <div class="portfolio-item xs-100 md-50 py-15 lg-33">
+                <div class="inner"><img src="./img/1.jpg" alt="alarm">
+                    <div class="layer"><i class="fa-solid fa-file-image"></i></div>
+                </div>
+            </div>
+            <div class="portfolio-item xs-100 md-50 py-15 lg-33">
+                <div class="inner"><img src="./img/2.jpg" alt="watch">
+                    <div class="layer"><i class="fa-solid fa-link"></i></div>
+                </div>
+            </div>
+            <div class="portfolio-item xs-100 md-50 py-15 lg-33">
+                <div class="inner"><img src="./img/3.jpg" alt="paper">
+                    <div class="layer"><i class="fa-solid fa-file-video"></i></div>
+                </div>
+            </div>
+            <div class="portfolio-item xs-100 md-50 py-15 lg-33">
+                <div class="inner"><img src="./img/4.jpg" alt="shoes">
+                    <div class="layer"><i class="fa-solid fa-file-image"></i></div>
+                </div>
+            </div>
+            <div class="portfolio-item xs-100 md-50 py-15 lg-33">
+                <div class="inner"><img src="./img/5.jpg" alt="cards">
+                    <div class="layer"><i class="fa-solid fa-link"></i></div>
+                </div>
+            </div>
+            <div class="portfolio-item xs-100 md-50 py-15 lg-33">
+                <div class="inner"><img src="./img/6.jpg" alt="arphones">
+                    <div class="layer"><i class="fa-solid fa-file-image"></i></div>
+                </div>
+            </div>
+            <div class="clr"></div>
+        </div>
+    </section>
+    <!-- *********************** end portfolio *********************** -->
+
+    <!-- *********************** start projects *********************** -->
+    <section class="projects sec-py-center py-70 py-80 py-100">
+        <div class="container md-95 lg-90 xl-85 xxl-75">
+            <div class="projects-item xs-100 md-25">
+                <div class="inner">
+                    <i class="fa-solid fa-users"></i>
+                    <h3>200</h3>
+                    <h5>Team members</h5>
+                </div>
+            </div>
+            <div class="projects-item xs-100 md-25">
+                <div class="inner">
+                    <i class="fa-solid fa-file"></i>
+                    <h3>345</h3>
+                    <h5>Complete Projects</h5>
+                </div>
+            </div>
+            <div class="projects-item xs-100 md-25">
+                <div class="inner">
+                    <i class="fa-solid fa-cloud-arrow-down"></i>
+                    <h3>1800</h3>
+                    <h5>Files Downloaded</h5>
+                </div>
+            </div>
+            <div class="projects-item xs-100 md-25">
+                <div class="inner">
+                    <i class="fa-solid fa-mug-saucer"></i>
+                    <h3>1200</h3>
+                    <h5>Lines Of Code</h5>
+                </div>
+            </div>
+            <div class="clr"></div>
+        </div>
+    </section>
+    <!-- *********************** end projects *********************** -->
+
+    <!-- *********************** start testimonial *********************** -->
+    <section id="testimonial" class="testimonial py-60 py-70 py-80 py-100">
+        <div class="container md-95 lg-90 xl-85 xxl-75">
+            <h2 class="section-head shape-line">Client's Feedback</h2>
+            <div class="card">
+                <div class="testimonial-item xs-100 md-20">
+                    <div class="inner"><img src="./img/2 (1).jpg" alt="man"></div>
+                </div>
+                <div class="testimonial-item xs-100 md-80">
+                    <div class="inner">
                         <h3>Alex ander</h3>
                         <h4><i class="fa-solid fa-location-dot"></i> United</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ducimus ex magni
-                            sunt,
-                            architecto vel dolore, laudantium dignissimos debitis optio! Exercitationem adipisicing
-                            elit.
-                        </p>
+                            sunt, architecto vel dolore, laudantium dignissimos debitis optio! Exercitationem
+                            adipisicing elit.</p>
                         <div class="stars">
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
@@ -246,106 +249,99 @@
                             <i class="fa-regular fa-star"></i>
                         </div>
                     </div>
-                    <div class="clr"></div>
                 </div>
-                <div class="dots">
-                    <div class="dot prev active"></div>
-                    <div class="dot next"></div>
-                    <div class="clr"></div>
-                </div>
+                <div class="clr"></div>
             </div>
-        </div>
-    </section>
-    <!-- end section 6 -->
-    <!-- start section 7 -->
-    <section id="blog" class="blog">
-        <div class="container">
-            <div class="upper">
-                <h2>Our Blog</h2>
-            </div>
-            <div class="our-blog">
-                <div class="blog-section">
-                    <div class="divimg"><img src="./image/1 (1).jpg" alt="women"></div>
-                    <div class="blog-info">
-                        <p>23 November, 2015</p>
-                        <h3><a href="#">Web design Blog Post</a></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam
-                            deserunt
-                            eius incidunt repellat molestiae.</p>
-                        <div><a href="#">READ MORE <i class="fa-solid fa-arrow-right-long"></i></a></div>
-                    </div>
-                </div>
-                <div class="blog-section">
-                    <div class="divimg"><iframe allowfullscreen="" allow="autoplay; encrypted-media"
-                            src="https://www.youtube.com/embed/uVju5--RqtY?feature=oembed"
-                            __idm_id__="7348225"></iframe></div>
-                    <div class="blog-info">
-                        <p>20 April, 2018</p>
-                        <h3><a href="#">Development Blog Post</a></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam
-                            deserunt
-                            eius incidunt repellat molestiae.</p>
-                        <div><a href="#">READ MORE <i class="fa-solid fa-arrow-right-long"></i></a></div>
-                    </div>
-                </div>
-                <div class="blog-section">
-                    <div class="divimg"><img src="./image/3 (1).jpg" alt="man"></div>
-                    <div class="blog-info">
-                        <p>17 May, 2017</p>
-                        <h3><a href="#">Full Width Blog Post</a></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam
-                            deserunt
-                            eius incidunt repellat molestiae.</p>
-                        <div><a href="#">READ MORE <i class="fa-solid fa-arrow-right-long"></i></a></div>
-                    </div>
-                </div>
+            <div class="dots">
+                <div class="dot dot-active"></div>
+                <div class="dot"></div>
                 <div class="clr"></div>
             </div>
         </div>
     </section>
-    <!-- end section 7 -->
-    <!-- start section 8 -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="upper">
-                <h2>Contact Us</h2>
+    <!-- *********************** end testimonial *********************** -->
+
+    <!-- *********************** start blog *********************** -->
+    <section id="blog" class="blog py-60 py-70-50 py-80-50 py-100-70">
+        <div class="container md-95 lg-90 xl-85 xxl-75">
+            <h2 class="section-head shape-line">Our Blog</h2>
+            <div class="blog-item xs-100 md-33">
+                <div class="inner">
+                    <div><img src="./img/1 (1).jpg" alt="woman"></div>
+                    <div class="content">
+                        <p>23 November, 2015</p>
+                        <h3><a href="#">Web Design Blog Post</a></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam
+                            deserunt eius incidunt repellat molestiae.</p>
+                        <div><a href="#">READ MORE<i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+                </div>
             </div>
-            <div class="our-form">
-                <form action="" method="post">
-                    <div class="inputs">
-                        <div class="dv"><input class="form-contral" type="text" id="name" name="name" placeholder="Name"
-                                required></div>
-                        <div class="dv"><input class="form-contral" type="email" id="email" name="email"
-                                placeholder="Email" required></div>
-                        <div class="clr"></div>
+            <div class="blog-item xs-100 md-33">
+                <div class="inner">
+                    <div><iframe allowfullscreen="" allow="autoplay; encrypted-media"
+                            src="https://www.youtube.com/embed/uVju5--RqtY?feature=oembed"
+                            __idm_id__="7348225"></iframe></div>
+                    <div class="content">
+                        <p>20 April, 2018</p>
+                        <h3><a href="#">Development Blog Post</a></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam
+                            deserunt eius incidunt repellat molestiae.</p>
+                        <div><a href="#">READ MORE<i class="fa-solid fa-arrow-right-long"></i></a></div>
                     </div>
-                    <div class="inputs"><input class="form-contral" type="text" id="subject" name="subject"
-                            placeholder="Subject" required></div>
-                    <div class="inputs"><textarea class="form-contral" rows="4" name="message" id="message"
-                            placeholder="Message for me" required></textarea>
-                    </div>
-                    <div class="sumbit">
-                        <button>SEND MESSAGE</button>
-                    </div>
-                </form>
+                </div>
             </div>
+            <div class="blog-item xs-100 md-33">
+                <div class="inner">
+                    <div><img src="./img/3 (1).jpg" alt="woman"></div>
+                    <div class="content">
+                        <p>17 May, 2017</p>
+                        <h3><a href="#">Full Width Blog Post</a></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam
+                            deserunt eius incidunt repellat molestiae.</p>
+                        <div><a href="#">READ MORE<i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="clr"></div>
         </div>
     </section>
-    <!-- end section 8 -->
-    <!-- start footer -->
-    <footer>
-        <div class="social-icon">
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-google"></i></a>
-            <a href="#"><i class="fa-brands fa-github"></i></a>
+    <!-- *********************** end blog *********************** -->
+
+    <!-- *********************** start contact *********************** -->
+    <section class="contact py-60 py-70 py-80 py-100">
+        <div class="container md-95 lg-90 xl-85 xxl-75">
+            <h2 class="section-head shape-line">Contact Us</h2>
+            <form action="" method="post">
+                <input class="xs-100 md-48" type="text" name="name" placeholder="Name" required>
+                <input class="xs-100 md-48" type="email" name="email" placeholder="Email" required>
+                <input class="xs-100" type="text" name="subject" placeholder="Subject" required>
+                <div class="clr"></div>
+                <textarea class="xs-100" name="message" placeholder="Message for me" rows="4" required></textarea>
+                <button class="btns">SEND MESSAGE</button>
+            </form>
         </div>
-        <p class="copy-right">Copy Right 2018 © By <a href="#">Theme-fair</a> All Rights Reserved</p>
+    </section>
+    <!-- *********************** end contact *********************** -->
+
+    <!-- *********************** start footer *********************** -->
+    <footer class="py-50">
+        <div class="container md-95 lg-90 xl-85 xxl-75">
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-google"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <div class="clr"></div>
+            </div>
+            <p>Copy Right 2018 © By <a href="#">Theme-fair</a> All Rights Reserved</p>
+        </div>
     </footer>
-    <!-- end footer -->
+    <!-- *********************** end footer *********************** -->
+
     <script>
         var typed = new Typed('.typed', {
-            strings: ["Developer", "Designer", "Freelancer"],
+            strings: ["Developer", "Designer"],
             typeSpeed: 50,
             backSpeed: 30,
             loop: true
